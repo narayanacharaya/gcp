@@ -1,0 +1,5 @@
+config:
+  my-stack:region: region "us-central1"
+  my-stack:projectId: jaanzo
+  my-stack:expressImage: docker build -t acharayanarayan/express-rate-limiter:v1.0.0 .
+
