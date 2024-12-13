@@ -1,5 +1,8 @@
 config:
-  my-stack:region: region "us-central1"
-  my-stack:projectId: jaanzo
-  my-stack:expressImage: docker build -t acharayanarayan/express-rate-limiter:v1.0.0 .
-
+  my-stack:region: us-central1
+  my-stack:projectId: gcps-444510
+  my-stack:expressImage: acharayanarayan/express-rate-limiter:v1.0.0
+  google-cloud:region: us-central1
+  google-cloud:projectId: gcps-444510
+  google-cloud:expressImage: docker.io/acharayanarayan/express-rate-limiter:v1.0.0
+  google-cloud:redisImage: docker.io/narayanacharaya/my-redis-image
